@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu, X } from 'lucide-react';
 import { FaCartShopping } from 'react-icons/fa6';
-import { Link } from 'react-router-dom'; // Assuming you are using react-router-dom for navigation
+import { Link } from 'react-router-dom'; 
 
 function Header({count}) {
   const menuItems = [
@@ -85,13 +85,13 @@ function Header({count}) {
                 <div className="mt-6">
                   <nav className="grid gap-y-4">
                     {menuItems.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
-                        href={item.href}
+                        to={item.href}
                         className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-yellow-100"
                       >
                         <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
-                      </a>
+                      </Link>
                     ))}
                   </nav>
                 </div>
