@@ -10,7 +10,7 @@ function Footer() {
               <div className="flex h-full flex-col justify-between">
                 <div className="mb-4 inline-flex items-center">
                   <span className="font-bold text-3xl">
-                    Gkp
+                    Gkp 
                     <span className="font-bold text-3xl text-[#f2d13d]">
                       Food
                     </span>
@@ -29,7 +29,7 @@ function Footer() {
             <div className="w-full p-6 md:w-1/2 lg:w-2/12">
               <div className="h-full">
                 <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
-                  Company
+                  Company by anuj
                 </h3>
                 <ul>
                   <li className="mb-4">
