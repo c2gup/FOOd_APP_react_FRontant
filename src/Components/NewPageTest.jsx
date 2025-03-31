@@ -8,6 +8,7 @@ function NewPageTest() {
             <p>Welcome to the new page!</p>
             <p>Feel free to add more content here.</p>
             <p>Test the new page functionality.</p>
+            <p>Check if everything is working as expected.</p>
         </div>
     );
 }
